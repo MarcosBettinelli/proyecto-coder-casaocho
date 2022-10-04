@@ -1,0 +1,355 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*-- LOGO --*/
+.logo {
+    display: flex;
+    align-items: center;   
+    padding: 0px 10px 0px 50px; 
+}
+
+.logo-img {
+    height: 100px;
+}
+
+/*-- BARRA DE NAVEGACION --*/
+nav {
+    border: solid 2px black;
+    border-color: white;
+    padding: 10px 50px;
+    margin: 40px 20px 5px;
+}
+
+nav a {
+    padding: 0px 40px;
+    color: white;
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*-- LOGO MI CUENTA --*/
+.cuenta {
+    padding: 10px 100px 0px 10px;
+}
+
+.cuenta-img {
+    height: 40px;
+}
+
+/*-- ENCABEZADO  --*/
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.925);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px 10px;
+}
+
+/*-- ENCABEZADO INICIO--*/
+.inicio {
+    display: block;
+}
+
+.inicio__encabezado {
+    display: flex;
+    flex-direction: column;
+}
+
+.inicio__encabezado--titulo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 5px;
+    text-decoration: underline;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.inicio__encabezado--envios {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 5px;
+    padding-right: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.inicio__encabezado--descripcion {
+    text-align: center;
+    font-weight: 100;
+    font-style: italic;
+    padding: 10px 0px 15px;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+/*-- ENCABEZADO RESTO DE LAS PAGINAS --*/
+.paginas {
+    display: block;
+}
+
+.paginas a:hover {
+    color: black;
+}
+
+.paginas__encabezado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.paginas__encabezado--titulo {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    font-size: 3rem;
+    font-weight: 800;
+    padding-top: 5px;
+}
+
+.paginas__encabezado--direccion {
+    text-align: center;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    color: grey;
+}
+
+.paginas__encabezado--direccion-link {
+    color: grey;
+    padding-right: 5px;
+}
+
+.paginas__encabezado--envios {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 5px;
+    padding-right: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.paginas__encabezado--direccion-conmic {
+    text-align: center;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    color: grey;
+    padding-top: 25px;
+}
+
+/*-- PIE DE PAGINA --*/
+footer {
+    background-color: rgba(0, 0, 0, 0.925);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 10px 15px;
+}
+
+footer a {
+    padding: 0px 40px;
+    color: white;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.email-contactate {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+/*-- LOGOS DEL FOOTER --*/
+.logos-contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px 5px 10px;
+}
+
+.instagram {
+    padding: 1px 5px 0px;
+}
+
+.instagram-img {
+    height: 30px;
+}
+
+.email-logo {
+    display: flex;
+    padding: 5px 5px 0px;
+}
+
+.email-img {
+    height: 20px;
+}
+
+/*-- DERECHOS DE LA PAGINA --*/
+.copyright {
+    font-style: italic;
+    padding: 10px 0px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.767);
+}
+
+/*-- PRODUCTOS DEL INICIO --*/
+.incio__productos {
+    display: flex;
+    flex-direction: column;
+}
+
+.inicio__productos--primerfila {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 15px 30px 30px;
+}
+
+.incio__productos--primero {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.inicio__productos--primero-linkeo {
+    
+}
+
+.inicio__productos--primero-img {
+    height: 200px;
+}
+
+.inicio__productos--primero-text {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.inicio__productos--primero-precio {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    padding-top: 2px;
+}
+
+.incio__productos--segundo {
+    display: flex;
+    justify-content: center;
+}
+
+.inicio__productos--segundo-img {
+    height: 200px;
+}
+
+.inicio__productos--segundo-text {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.inicio__productos--segundo-precio {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    padding-top: 2px;
+}
+
+.incio__productos--tercero {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.inicio__productos--tercero-img {
+    height: 200px;
+}
+
+.inicio__productos--tercero-text {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.inicio__productos--tercero-precio {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    padding-top: 2px;
+}
+
+/*-- FORMULARIO DE CONTACTO --*/
+.contact-page {
+    display: block;
+}
+
+.formulario {
+    padding: 15px;
+    font-weight: bold;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nombre-usuario {
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.email-usuario {
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.telefono-usuario {
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.mensaje-usuario {
+    padding-top: 5px;
+    padding-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.boton-enviar {
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+}
